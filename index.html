@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+    <h3 class="col-4 offset-1 mb-0 mt-3">Guess the Number</h3><br>
+
+    <form class="col-4 offset-1 border border-2 border-info-subtle rounded-5 p-5">
+        <div class="row mb-3">
+            <label class="col-6 col-form-label">number</label>
+            <div class="col-6">
+                <select id="number" class="form-select">
+                  <option selected>1</option>
+                  <option>2</option>
+                  <option>3</option>
+                  <option>4</option>
+                  <option>5</option>
+                  <option>6</option>
+                  <option>7</option>
+                  <option>8</option>
+                  <option>9</option>
+                  <option>10</option>
+                </select>
+            </div>
+        </div>
+        <div class="row mt-3">
+            <input class=" btn border-info-subtle border-2" type="button" value="Guess" onclick="clickOnAction()">
+        </div>
+      </form>
+      <label class="offset-2 fw-bold fs-6" id="output"></label>
+    <script src="app.js"></script>
+</body>
+</html>
